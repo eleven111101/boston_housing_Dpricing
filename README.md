@@ -10,6 +10,12 @@
  6. [GitCLI](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
  7. [Anaconda](https://www.anaconda.com/download?utm_source=anacondadoc&utm_medium=documentation&utm_campaign=download&utm_content=topnavalldocs)
 
+# for cloning any repository
+1. Open cmd prompt and then clone the repository.
+2. Clone the repository by providing URL.
+3. ``` git clone "URl"```
+
+
  # Create a new Environment for project
  ```conda create -p venv python==3.7 -y```
 # Environment purpose
@@ -32,3 +38,15 @@ $ conda deactivate
  ```git commit -m "your_message" ```
  *******
  ```git push/origin >> Browser open and the commit has happened"```
+
+ # After coding the app.py 
+```
+1. Access the application by navigating to the default URL 127.0.0.1:5000.
+   
+2. The `Predict_API` function might not work directly, so we need to use the POSTMAN app.
+
+3. POSTMAN will help send a POST request to the API. You need to enter the URL and provide the data in JSON format.
+
+4. Once you send the request, the function will execute, and the prediction will be returned successfully.
+```
+
