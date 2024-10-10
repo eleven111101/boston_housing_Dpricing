@@ -28,4 +28,7 @@ $ conda deactivate
  *******
  ```git config --global user.email "your_email"```
 
-
+ # Create a message for commiting
+ ```git commit -m "your_message" ```
+ *******
+ ```git push/origin >> Browser open and the commit has happened"```
