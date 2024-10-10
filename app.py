@@ -31,6 +31,17 @@ def predict_api():
     
     # Return the prediction result as JSON
     return jsonify(output[0])
+#Making new html page for the inputs of the Users:
+@app.route('/predict',methods=['POST'])
+def predict():
+    # Get the data from the POST request
+    data=[float(x) for x in request.form.values()]
+    final_input = scalar.transform(np.array(data).reshape(1,-1))
+    print(final_input)
+    output = regmodel.predict(final_input)[0]
+    return render_template('home.html',prediction_text = "The house Price prediction is {}".format(output))
+    
+
 
 # Run the Flask app
 if __name__ == "__main__":

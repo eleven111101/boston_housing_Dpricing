@@ -55,3 +55,5 @@ $ conda deactivate
 5. Once you send the request, the function will execute, and the prediction will be returned successfully.
 ```
 
+# Code for home-page.HTML 
+This will generate predictions based on the input values. You'll need to add a corresponding function in the `app.py` file of your Flask application to handle this.
