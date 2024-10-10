@@ -9,8 +9,10 @@
  5. [VScodeIDE](https://code.visualstudio.com/download)
  6. [GitCLI](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
  7. [Anaconda](https://www.anaconda.com/download?utm_source=anacondadoc&utm_medium=documentation&utm_campaign=download&utm_content=topnavalldocs)
+ 8. [POSTMAN](https://www.postman.com/downloads/)
+ 9. [JSONINT](https://jsonlint.com/)
 
-# for cloning any repository
+# For cloning any repository
 1. Open cmd prompt and then clone the repository.
 2. Clone the repository by providing URL.
 3. ``` git clone "URl"```
@@ -18,6 +20,7 @@
 
  # Create a new Environment for project
  ```conda create -p venv python==3.7 -y```
+
 # Environment purpose
  ```
 To activate this environment
@@ -45,8 +48,10 @@ $ conda deactivate
    
 2. The `Predict_API` function might not work directly, so we need to use the POSTMAN app.
 
-3. POSTMAN will help send a POST request to the API. You need to enter the URL and provide the data in JSON format.
+3. You can check your JSON format from JSONLINT.com as valid/invalid.
 
-4. Once you send the request, the function will execute, and the prediction will be returned successfully.
+4. POSTMAN will help send a POST request to the API. You need to enter the URL and provide the data in JSON format.
+
+5. Once you send the request, the function will execute, and the prediction will be returned successfully.
 ```
 
