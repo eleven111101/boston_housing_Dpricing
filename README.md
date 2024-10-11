@@ -57,3 +57,8 @@ $ conda deactivate
 
 # Code for home-page.HTML 
 This will generate predictions based on the input values. You'll need to add a corresponding function in the `app.py` file of your Flask application to handle this.
+
+# Cloud application
+1. We will start with HEROKU cloud.
+2. creating a PROC file. 
+3. Procfile - Specify some commands to execute after starting the app.
