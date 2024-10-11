@@ -44,21 +44,22 @@ $ conda deactivate
 
  # After coding the app.py 
 ```
-1. Access the application by navigating to the default URL 127.0.0.1:5000.
-   
-2. The `Predict_API` function might not work directly, so we need to use the POSTMAN app.
-
-3. You can check your JSON format from JSONLINT.com as valid/invalid.
-
-4. POSTMAN will help send a POST request to the API. You need to enter the URL and provide the data in JSON format.
-
-5. Once you send the request, the function will execute, and the prediction will be returned successfully.
+1. Access the app at the default URL: 127.0.0.1:5000.  
+2. Use POSTMAN if the `Predict_API` function doesn't work directly.  
+3. Validate your JSON format using JSONLINT.com.  
+4. In POSTMAN, enter the URL and send a POST request with JSON data.
+5. The function will run and return the prediction.
 ```
 
 # Code for home-page.HTML 
 This will generate predictions based on the input values. You'll need to add a corresponding function in the `app.py` file of your Flask application to handle this.
 
 # Cloud application
-1. We will start with HEROKU cloud.
-2. creating a PROC file. 
-3. Procfile - Specify some commands to execute after starting the app.
+```
+1. We'll begin by using the Heroku cloud platform.
+2. Next, we'll create a Procfile.
+3. The Procfile defines the commands to execute once the app starts.
+4. We'll navigate to the Heroku dashboard and create a new app.
+5. The project will be deployed using Heroku's direct deployment methods.
+6. We'll also use the Heroku CLI to deploy the project.
+```
