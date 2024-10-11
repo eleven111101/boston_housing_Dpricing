@@ -63,3 +63,19 @@ This will generate predictions based on the input values. You'll need to add a c
 5. The project will be deployed using Heroku's direct deployment methods.
 6. We'll also use the Heroku CLI to deploy the project.
 ```
+# DOCKERS and GITHUB actions
+1. Docker helps manage the container.  
+2. The container maintains a consistent environment.  
+3. Next, we create a 'main.yaml' file and add the required code.  
+4. We'll then configure secret keys in the settings.  
+5. Secret keys for the API, email, and app name will be generated and saved.
+
+# The process of the Docker is:
+```FROM: Use Python
+COPY: Move your files into the container
+WORKDIR: Work in that folder
+RUN: Install stuff
+EXPOSE: Open the port
+CMD: Start the app
+```
+

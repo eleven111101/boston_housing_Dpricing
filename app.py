@@ -31,6 +31,7 @@ def predict_api():
     
     # Return the prediction result as JSON
     return jsonify(output[0])
+
 #Making new html page for the inputs of the Users:
 @app.route('/predict',methods=['POST'])
 def predict():
